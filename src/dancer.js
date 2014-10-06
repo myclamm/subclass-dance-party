@@ -37,6 +37,7 @@
 //setPosition method that sets the node's css to top and left
 //it shoudl call step() and setPosition(top,left)
 
+//
 var makeDancer = function(top,left,timeBetweenSteps){
   this.$node =$('<span class="dancer"></span>');
   this.timespan = timeBetweenSteps;
